@@ -4,14 +4,9 @@
 
 Completa una implementación de **Heapsort** basada en **Max‑Heap**. Se proporciona un esqueleto con `main` y prototipos; tu trabajo consiste **únicamente** en escribir tres funciones.
 
-## Objetivos de aprendizaje
-
-* Practicar la construcción y mantenimiento de un **max heap**.
-* Implementar **Heapsort** razonar sobre su complejidad.
-
 ## Archivos y estructura
 
-* `heapsort.c` (proporcionado): contiene `main` y los **prototipos**.
+* `heapsort.c`: contiene `main` y los **prototipos**.
 * **No** crees archivos adicionales ni modifiques el nombre del archivo base.
 
 ## Tareas a completar
@@ -31,6 +26,7 @@ void heap_sort(int a[], int n);
 
 * **Entrada (stdin)**: primero `n` (entero > 0), luego `n` enteros.
 * **Salida (stdout)**: los `n` enteros **ordenados ascendentemente**, separados por espacio y con salto de línea final.
+* Proporciona una serie de ejemplos que demuestren el funcionamiento correcto de la implementación.
 
 **Ejemplo (solo formato):**
 

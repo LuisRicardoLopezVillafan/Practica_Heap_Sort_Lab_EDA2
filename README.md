@@ -1,2 +1,49 @@
-# Practica_Heap_Sort_Lab_EDA2
-Práctica sobre el algoritmo Heap Sort para el laboratorio de EDA 2.
+# Práctica: Heapsort (Max‑Heap)
+
+## Descripción
+
+Completa una implementación de **Heapsort** basada en **Max‑Heap**. Se proporciona un esqueleto con `main` y prototipos; tu trabajo consiste **únicamente** en escribir tres funciones.
+
+## Objetivos de aprendizaje
+
+* Practicar la construcción y mantenimiento de un **max heap**.
+* Implementar **Heapsort** razonar sobre su complejidad.
+
+## Archivos y estructura
+
+* `heapsort.c` (proporcionado): contiene `main` y los **prototipos**.
+* **No** crees archivos adicionales ni modifiques el nombre del archivo base.
+
+## Tareas a completar
+
+Implementa **desde cero** estas funciones (firmas obligatorias):
+
+```c
+void max_heapify(int a[], int n, int i);
+void build_max_heap(int a[], int n);
+void heap_sort(int a[], int n);
+```
+
+* **No modifiques** `main`, ni las firmas, ni el tipo de los parámetros.
+* La salida debe ser el arreglo **en orden ascendente** (usa Max‑Heap).
+
+## Formato de E/S
+
+* **Entrada (stdin)**: primero `n` (entero > 0), luego `n` enteros.
+* **Salida (stdout)**: los `n` enteros **ordenados ascendentemente**, separados por espacio y con salto de línea final.
+
+**Ejemplo (solo formato):**
+
+```
+Entrada
+5
+9 4 7 1 3
+
+Salida
+1 3 4 7 9
+```
+
+## Requisitos y restricciones
+
+* Implementación **in‑place** (sin arreglos auxiliares de tamaño `n`).
+* Complejidad esperada: **O(n log n)**.
